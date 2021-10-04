@@ -38,20 +38,20 @@ Link to the user guide for RMM server: https://www.rackwareinc.com/rackware-rmm-
 # License Requirements 
 For migration using the RMM server, the license model is “bring your own license” (BYOL). The license is a subscription-based license, paid monthly.  Each license allows you to migrate one or more servers during the subscription period. Only one server can be migrated at any given time with one license. You will need additional licenses to perform concurrent migrations.  To purchase and install licenses please refer to the Section : License Procurement Process
 
-Ordering Page Deployment Values
+### Ordering Page Deployment Values
 This will create a new VPC to install the RMM server.
-Parameter	Description	Value
-TF_Version	terraform engine version to be used in schematics	Leave default value
-ibm_region	IBM Cloud region where the resources are to be deployed	MZR (i.e, us-south)
-ibmcloud_api_key	IBM Cloud VPC API key needed to deploy IAM enabled resources	API key
-image_url		Leave default value
-name	The name of the VPC	Any arbitrary name that complies to IBM VPC naming schema
-profile		Leave default value
-resource_group	IBM Cloud resource group	 Resource group name under which you want this resource
- d 
-ssh_key	Public ssh key to login to the resource	Name of an existing SSH key of the region that you wished to login in with
-zone	VPC zone that you want to deploy the resource in	Zone name (ie., us-south-1)
 
+| Parameter | Description | Value |
+| --- | --- | --- |
+| TF_Version | terraform engine version to be used in schematics | Leave default value |
+| ibm_region | IBM Cloud region where the resources to be deployed | MZR (i.e, us-south) |
+| ibmcloud_api_key | IBM Cloud VPC API key needed to deploy IAM enabled resources | API key |
+| image_url |  | Leave default value |
+| name | The name of the VPC | Any arbitrary name that complies to IBM VPC naming schema |
+| profile | | Leave default value |
+|resource_group | IBM Cloud resource group | Name of an existing resource group that you want this resource to be placed under |
+| ssh_key | Public ssh key to login into the resource | Name of an existing SSH key of the region that you wished to login in with |
+| zone | VPC zone that you wished to deploy the resource in | Zone name (ie., us-south-1) |
 
 ### Production configuration 
 - Change the default password 
