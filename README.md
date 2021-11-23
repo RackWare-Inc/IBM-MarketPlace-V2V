@@ -1,7 +1,8 @@
 ## Product Overview
 RackWare's RMM Migrations are an automated, easy, and convenient process to migrate existing workloads from your current location to IBM Cloud. The support migrated use cases are:
-1.	Migration from VMware virtual machine to IBM Cloud VPC VSIs
-2.	Migration from bare metal to bare metal within IBM Cloud classic
+1.	VMware virtual machine to IBM Cloud VPC VSI
+2.	Bare metal to bare metal within IBM Cloud classic
+3.	HyperV virtual machine to IBM Cloud VPC VSI
 
 RMM will create an exact duplicate of a running image without the burden of rebuilding or recreating template images and applications. It decouples the application stack from the underlying platform, allowing it to be ported to the IBM Cloud infrastructure with ease. 
 
@@ -9,11 +10,13 @@ RMM simplifies migration of large complex environments through a simple interfac
 
 
 Key Benefits 
-- Live Migrations 
-- Highly secure and efficient data transfer. 
-- Include / Exclude Lists: Capture and “sync only” specific files and directories rather than entire systems. 
-- Delta Sync: Sync only the changed parts of files during the final data sync, drastically lowering cutover times. 
-- Network optimization: bandwidth usage limitations, compression and check point restart for all sync operations
+-	Live and Non-Disruptive Migrations
+-	Highly secure and efficient data transfer
+-	Auto discovery of VMware vSphere workloads 
+-	Auto provision of target Virtual Server Instance
+-	Include / Exclude Lists: Capture and “sync only” specific files and directories rather than entire systems
+-	Delta Sync: Sync only the changed parts of files during the final data sync, drastically lowering cutover times
+-	Network optimization: bandwidth usage limitations, compression and check point restart for all sync operations
 
 For more information, visit https://www.rackwareinc.com/cloud-migration
 
@@ -21,9 +24,8 @@ For more information, visit https://www.rackwareinc.com/cloud-migration
 - IBM Cloud classic bare metal to IBM Cloud classic bare metal. For more details, click [here](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-p-p-migration-bare-metal-overview)
 - VMware virtual machine (On-prem) to IBM Cloud VPC. For more details, click [here](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vmware-vpc)
 - VMware virtual machine (IBM Classic) to IBM Cloud VPC. For more details, click [here](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vmware-vpc-classic)
+- HyperV virtual machine (On-prem) to IBM Cloud VPC. For more details, click [here](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vmware-vsi)
  
-
-
 ## Before you begin software installation, make sure you have the following: 
 - Proper IBM Cloud account permissions and access 
 - Identification of a region and zone where you will want to  deploy the RMM server 
