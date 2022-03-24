@@ -15,7 +15,7 @@ For additional information on the supported migrations, see below:
 ## Key Benefits 
 -	Live and Non-Disruptive Migrations
 -	Highly secure and efficient data transfer
--	Auto discovery of VMware vSphere workloads 
+-	Auto discovery of VMware vSphere and Hyper-V workloads 
 -	Auto provision of target Virtual Server Instance
 -	Include / Exclude Lists: Capture and sync only specific files and directories rather than entire systems
 -	Delta Sync: Sync only the changed parts of files during the final data sync, drastically lowering cutover times
