@@ -11,6 +11,8 @@ For additional information on the supported migrations, see below:
 -	[On-premises physical machines to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-on-prem-cloud-vpc)
 -	[GCP, AWS, Azure, virtual machines and OCI Baremetal to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-aws-azure-gcp-and-oci-workloads-to-ibm-cloud-vpc-vsi-migration-with-rackware-rmm)
 -	[IBM Cloud classic bare metal to IBM Cloud classic bare metal](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-p-p-migration-bare-metal-overview)
+- [IBM Cloud classic bare metal to IBM Cloud VPC bare metal](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-pv-migration-private-network)
+- [RMM can also be used to migrate databases ( MSSQL, MySQL ). Oracle RAC and ASM disk-based, AWS RDS like ( managed ) databases are not supported.](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-mssql-db-overview#rackware-management-module)
 
 ## Key Benefits 
 -	Live and Non-Disruptive Migrations
@@ -37,7 +39,7 @@ The RMM software comes preinstalled as part of the virtual server provisioning p
 For more information, see the user guide for the RMM server: https://www.rackwareinc.com/rackware-rmm-users-guide-for-ibm-cloud
 
 ## License Requirements 
-For migration using the RMM server, the license model is “Bring Your Own License” (BYOL). This is a subscription-based license, paid monthly. Each license allows you to migrate one or more servers during the subscription period. Only one server can be migrated at any given time with one license. You will need additional licenses to perform concurrent migrations. To purchase and install licenses, see the “License procurement process” section.
+For migration using the RMM server, the license model is “Bring Your Own License” (BYOL). Only one server can be migrated at any given time with one license. You will need additional licenses to perform concurrent migrations. To purchase and install licenses, see the “License procurement process” section.
 
 ## Ordering Page Deployment Values
 This will create a new VPC to install the RMM server.
