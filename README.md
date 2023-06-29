@@ -36,7 +36,7 @@ The RMM software comes preinstalled as part of the virtual server provisioning p
 
 **Note:** Setup VPN to access the reserved IP address.
 
-For more information, see the user guide for the RMM server: https://www.rackwareinc.com/rackware-rmm-users-guide-for-ibm-cloud
+For more information, see the user guide for the RMM server: [https://www.rackwareinc.com/rackware-rmm-getting-started-for-ibm-cloud](https://www.rackwareinc.com/rackware-rmm-getting-started-for-ibm-cloud)
 
 ## License Requirements 
 For migration using the RMM server, the license model is “Bring Your Own License” (BYOL). Only one server can be migrated at any given time with one license. You will need additional licenses to perform concurrent migrations. To purchase and install licenses, see the “License procurement process” section.
